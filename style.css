@@ -1,0 +1,72 @@
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("parallax-bg.jpg"); /* Исправленный путь к изображению */
+    background-size: cover; /* Покрытие всего фона */
+    background-position: center; /* Центрирование изображения */
+    background-repeat: no-repeat; /* Изображение не должно повторяться */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.9); /* Полупрозрачный белый фон */
+    border-radius: 10px;
+}
+
+/* Стилизация заголовков */
+header h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+}
+
+header p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 50px;
+}
+
+/* Профильное фото */
+.profile-picture {
+    display: block;
+    margin: 0 auto 40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Секции Обо мне и Контакты */
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    color: #444;
+    margin-bottom: 15px;
+}
+
+section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+section li strong {
+    color: #555;
+}
+
+/* Футер */
+footer {
+    text-align: center;
+    color: #777;
+    font-size: 14px;
+    margin-top: 60px;
+}
+
+
+
